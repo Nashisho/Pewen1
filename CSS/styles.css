@@ -1,0 +1,265 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav1 a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right:15px ;
+    transition: all 0.4s;
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+.nav1 a:hover{
+    color: lightgreen;
+}
+.nav-logo{
+    height: 200;
+    width: 100;
+}
+.buscar{
+    height: 40px ;
+    outline: none;
+    border: 2px solid lightgreen;
+    border-radius: 15px 0px 0px 15px;
+    background-color: transparent;
+    border-right: none;
+}
+.buscar:focus{
+    outline: none;
+    box-shadow: none;
+    border: 2px solid salmon;
+    border-right: none;
+}
+.boton1{
+    height: 40px;
+    outline: none;
+    border: none;
+    background-color: lightgreen;
+    color: white;
+    border-radius: 0 15px 15px 0;
+    transition: all 0.4s;
+}
+.boton1:hover{
+    background-color: rgb(1, 160, 1);
+}
+.bi-bag{
+    font-size: 25px;
+    color: black;
+    padding-top:5px ;
+    padding-left: 3px;
+    transition: all 0.4s;
+}
+.bi-bag:hover{
+    color: lightgreen;
+}
+.cuerpo{
+    background: url(/ASSET/IMG/fondo11.jpg)no-repeat;
+    background-size: cover;
+    height: 83.7vh;
+    width: 100%;
+}
+.cuerpo h1{
+    font-size: 6rem;
+    font-family: 'Righteous', cursive;
+}
+.cuerpo p:nth-child(1){
+    font-size: 40px;
+    font-weight:500 ;
+}
+.boton2{
+    height: 50px;
+    width: 30%;
+    outline: none;
+    border: none;
+    color:rgb(252, 152, 141);
+    background:lightgreen ;
+    border-radius: 50px;
+    transition:all 0.4s ;
+}
+.boton2:hover{
+    background-color:rgb(0, 255, 0);
+    color: white;
+}
+.boton3{
+    height: 50px;
+    width: 30%;
+    outline: none;
+    background-color: transparent;
+    color: rgb(255, 51, 0);
+    border: 1px solid rgb(0, 255, 0);
+    border-radius:50px ;
+    transition: all 0.4s;
+}
+.boton3:hover{
+    background-color:rgb(0, 255, 0) ;
+    border: none;
+    color: white;
+}
+.line{
+    height: 20px;
+    width: 30%;
+    background: rgb(1, 160, 1);
+    display: inline-block;
+    border-radius: 0 10px 10px 0;
+}
+
+.nosotros{
+    background: url(/ASSET/IMG/info11.jpg);
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+}
+.nosotros h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.nosotros p:nth-child(1){
+    font-size: 25px;
+    font-weight:500 ;
+}
+.bienvenidos{
+    background: rgb(76, 182, 76);
+}
+.bienvenidos h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.line2{
+    height: 6px;
+    width: 50%;
+    background-color: white;
+    display: inline-block;
+}
+.line3{
+    height: 6px;
+    width: 50%;
+    background-color: rgb(1, 160, 1);
+    display: inline-block;
+}
+.bienvenidos h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.bienvenidos .card{
+    border: none;
+    cursor: pointer;
+}
+.bienvenidos i{
+    font-size: 45px;
+    color: rgb(76, 182, 76);
+}
+.bienvenidos h2{
+    font-weight: lighter;
+    padding: 10px 0;
+}
+.productos h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.productos p:nth-child(1){
+    font-size: 20px;
+    font-weight:500 ;
+    padding-top: 50px;
+}
+.productos .card{
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.productos .card-body{
+    border: 1px solid rgb(219, 211, 211);
+}
+.prod-texto{
+    font-weight: 400;
+    margin: 0;
+}
+.precio1{
+    color: gray;
+}
+.boton-carro{
+    height: 50px;
+    width: 50%;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: rgb(76, 182, 76);
+    border-radius: 50px;
+    margin: 0 auto;
+    display: block;
+    transition: all 0.4s;
+}
+.boton-carro:hover{
+    outline: none;
+    border: 1px solid rgb(0, 255, 0);
+    color: rgb(0, 255, 0);
+    background: transparent;
+    border-radius: 50px;
+}
+.boton-mas{
+    height: 50px;
+    width: 100%;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: rgb(76, 182, 76);
+    border-radius: 50px;
+    margin: 0 auto;
+    display: block;
+    transition: all 0.4s;
+}
+.boton-mas:hover{
+    outline: none;
+    border: 1px solid rgb(0, 255, 0);
+    color: rgb(0, 255, 0);
+    background: transparent;
+    border-radius: 50px;
+}
+.franja{
+    background: rgb(1, 160, 1);
+    height: 10vh;
+}
+.franja{
+    background:rgb(43, 184, 43);
+    color: white;
+}
+.bi-star{
+    color: yellow;
+}
+.tienda h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.tienda p:nth-child(1){
+    font-size: 25px;
+    font-weight:500 ;
+}
+.tienda i{
+    font-size: 60px ;
+}
+.tienda .card{
+    border-radius: 0;
+    border: none;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+.tienda .card:hover{
+    background-color: rgb(0, 255, 0);
+    color: white;
+}
+.buscados h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.buscados .card{
+    border-radius: 0;
+    border: none;
+}
+.ofertas{
+    cursor: pointer;
+}
